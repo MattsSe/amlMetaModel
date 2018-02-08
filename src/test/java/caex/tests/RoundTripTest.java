@@ -8,7 +8,7 @@
  * Contributors:
  *     Manuel Wimmer and Emanuel Maetzler
  *******************************************************************************/
-package Test;
+package caex.tests;
 
 import java.io.File;
 
