@@ -14,7 +14,7 @@ package CAEX.impl;
 
 import CAEX.Attribute;
 import CAEX.CAEXPackage;
-import CAEX.InterfaceClass;
+import CAEX.ExternalInterface;
 import CAEX.InternalElement;
 import CAEX.InternalLink;
 import CAEX.SupportedRoleClass;
@@ -73,7 +73,7 @@ public class SystemUnitClassImpl extends CAEXObjectImpl implements SystemUnitCla
 	 * @generated
 	 * @ordered
 	 */
-	protected EList<InterfaceClass> externalInterface;
+	protected EList<ExternalInterface> externalInterface;
 
 	/**
 	 * The cached value of the '{@link #getInternalElement() <em>Internal Element</em>}' containment reference list.
@@ -181,9 +181,9 @@ public class SystemUnitClassImpl extends CAEXObjectImpl implements SystemUnitCla
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<InterfaceClass> getExternalInterface() {
+	public EList<ExternalInterface> getExternalInterface() {
 		if (externalInterface == null) {
-			externalInterface = new EObjectContainmentEList<InterfaceClass>(InterfaceClass.class, this, CAEXPackage.SYSTEM_UNIT_CLASS__EXTERNAL_INTERFACE);
+			externalInterface = new EObjectContainmentEList<ExternalInterface>(ExternalInterface.class, this, CAEXPackage.SYSTEM_UNIT_CLASS__EXTERNAL_INTERFACE);
 		}
 		return externalInterface;
 	}
@@ -363,7 +363,7 @@ public class SystemUnitClassImpl extends CAEXObjectImpl implements SystemUnitCla
 				return;
 			case CAEXPackage.SYSTEM_UNIT_CLASS__EXTERNAL_INTERFACE:
 				getExternalInterface().clear();
-				getExternalInterface().addAll((Collection<? extends InterfaceClass>)newValue);
+				getExternalInterface().addAll((Collection<? extends ExternalInterface>)newValue);
 				return;
 			case CAEXPackage.SYSTEM_UNIT_CLASS__INTERNAL_ELEMENT:
 				getInternalElement().clear();
@@ -464,7 +464,7 @@ public class SystemUnitClassImpl extends CAEXObjectImpl implements SystemUnitCla
 	public String toString() {
 		if (eIsProxy()) return super.toString();
 
-		StringBuffer result = new StringBuffer(super.toString());
+		StringBuilder result = new StringBuilder(super.toString());
 		result.append(" (refBaseClassPath: ");
 		result.append(refBaseClassPath);
 		result.append(')');
