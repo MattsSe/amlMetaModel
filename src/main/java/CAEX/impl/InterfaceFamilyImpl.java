@@ -12,9 +12,10 @@
  */
 package CAEX.impl;
 
+import org.eclipse.emf.ecore.EClass;
+
 import CAEX.CAEXPackage;
 import CAEX.InterfaceFamily;
-import org.eclipse.emf.ecore.EClass;
 
 /**
  * <!-- begin-user-doc -->

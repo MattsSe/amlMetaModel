@@ -12,20 +12,18 @@
  */
 package CAEX.impl;
 
-import CAEX.CAEXPackage;
-import CAEX.RoleClass;
-import CAEX.RoleClassLib;
 import java.util.Collection;
 
 import org.eclipse.emf.common.notify.NotificationChain;
-
 import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
-
 import org.eclipse.emf.ecore.util.EObjectContainmentEList;
 import org.eclipse.emf.ecore.util.InternalEList;
+
+import CAEX.CAEXPackage;
+import CAEX.RoleClass;
+import CAEX.RoleClassLib;
 
 /**
  * <!-- begin-user-doc -->

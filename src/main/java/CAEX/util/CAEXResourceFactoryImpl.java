@@ -12,22 +12,16 @@
  */
 package CAEX.util;
 
-import CAEX.CAEXPackage;
-
 import org.eclipse.emf.common.util.URI;
-
 import org.eclipse.emf.ecore.EPackage;
-
 import org.eclipse.emf.ecore.impl.EPackageRegistryImpl;
-
 import org.eclipse.emf.ecore.resource.Resource;
-
 import org.eclipse.emf.ecore.resource.impl.ResourceFactoryImpl;
-
 import org.eclipse.emf.ecore.util.BasicExtendedMetaData;
 import org.eclipse.emf.ecore.util.ExtendedMetaData;
-
 import org.eclipse.emf.ecore.xmi.XMLResource;
+
+import CAEX.CAEXPackage;
 
 /**
  * <!-- begin-user-doc -->

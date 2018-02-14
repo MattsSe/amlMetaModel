@@ -2,12 +2,44 @@
  */
 package CAEX.util;
 
-import CAEX.*;
-
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
-
 import org.eclipse.emf.ecore.util.Switch;
+
+import CAEX.Attribute;
+import CAEX.AttributeNameMapping;
+import CAEX.AttributeValueRequirement;
+import CAEX.CAEXBasicObject;
+import CAEX.CAEXFile;
+import CAEX.CAEXObject;
+import CAEX.CAEXPackage;
+import CAEX.Copyright;
+import CAEX.Description;
+import CAEX.DocumentRoot;
+import CAEX.ExternalInterface;
+import CAEX.ExternalReference;
+import CAEX.InstanceHierarchy;
+import CAEX.InterfaceClass;
+import CAEX.InterfaceClassLib;
+import CAEX.InterfaceFamily;
+import CAEX.InterfaceNameMapping;
+import CAEX.InternalElement;
+import CAEX.InternalLink;
+import CAEX.Mapping;
+import CAEX.NominalScaled;
+import CAEX.OrdinalScaled;
+import CAEX.RefSemantic;
+import CAEX.Revision;
+import CAEX.RoleClass;
+import CAEX.RoleClassLib;
+import CAEX.RoleFamily;
+import CAEX.RoleRequirements;
+import CAEX.SupportedRoleClass;
+import CAEX.SystemUnitClass;
+import CAEX.SystemUnitClassLib;
+import CAEX.SystemUnitFamily;
+import CAEX.UnknownType;
+import CAEX.Version;
 
 /**
  * <!-- begin-user-doc -->

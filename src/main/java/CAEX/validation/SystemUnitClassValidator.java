@@ -4,14 +4,14 @@
  */
 package CAEX.validation;
 
+import org.eclipse.emf.common.util.EList;
+
 import CAEX.Attribute;
 import CAEX.ExternalInterface;
 import CAEX.InternalElement;
 import CAEX.InternalLink;
 import CAEX.SupportedRoleClass;
 import CAEX.SystemUnitClass;
-
-import org.eclipse.emf.common.util.EList;
 
 /**
  * A sample validator interface for {@link CAEX.SystemUnitClass}.

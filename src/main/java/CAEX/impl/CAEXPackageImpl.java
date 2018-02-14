@@ -12,6 +12,15 @@
  */
 package CAEX.impl;
 
+import org.eclipse.emf.ecore.EAttribute;
+import org.eclipse.emf.ecore.EClass;
+import org.eclipse.emf.ecore.EDataType;
+import org.eclipse.emf.ecore.EEnum;
+import org.eclipse.emf.ecore.EPackage;
+import org.eclipse.emf.ecore.EReference;
+import org.eclipse.emf.ecore.impl.EPackageImpl;
+import org.eclipse.emf.ecore.xml.type.XMLTypePackage;
+
 import CAEX.Attribute;
 import CAEX.AttributeNameMapping;
 import CAEX.AttributeValueRequirement;
@@ -48,17 +57,6 @@ import CAEX.SystemUnitClassLib;
 import CAEX.SystemUnitFamily;
 import CAEX.UnknownType;
 import CAEX.Version;
-
-import org.eclipse.emf.ecore.EAttribute;
-import org.eclipse.emf.ecore.EClass;
-import org.eclipse.emf.ecore.EDataType;
-import org.eclipse.emf.ecore.EEnum;
-import org.eclipse.emf.ecore.EPackage;
-import org.eclipse.emf.ecore.EReference;
-
-import org.eclipse.emf.ecore.impl.EPackageImpl;
-
-import org.eclipse.emf.ecore.xml.type.XMLTypePackage;
 
 /**
  * <!-- begin-user-doc -->

@@ -12,9 +12,6 @@
  */
 package CAEX.impl;
 
-import CAEX.CAEXFile;
-import CAEX.CAEXPackage;
-import CAEX.DocumentRoot;
 import org.eclipse.emf.common.notify.NotificationChain;
 import org.eclipse.emf.common.util.EMap;
 import org.eclipse.emf.ecore.EClass;
@@ -27,6 +24,10 @@ import org.eclipse.emf.ecore.util.BasicFeatureMap;
 import org.eclipse.emf.ecore.util.EcoreEMap;
 import org.eclipse.emf.ecore.util.FeatureMap;
 import org.eclipse.emf.ecore.util.InternalEList;
+
+import CAEX.CAEXFile;
+import CAEX.CAEXPackage;
+import CAEX.DocumentRoot;
 
 /**
  * <!-- begin-user-doc -->
